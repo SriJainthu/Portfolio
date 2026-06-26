@@ -528,6 +528,15 @@ body.light-theme .theme-icon.moon { opacity: 1; transform: rotate(0); }
   background: rgba(124,58,237,0.08);
   transform: translateY(-2px);
 }
+.btn-resume-hero {
+  border-color: rgba(0,212,255,0.4);
+  color: var(--c-cyan);
+}
+.btn-resume-hero:hover {
+  border-color: var(--c-cyan);
+  background: rgba(0,212,255,0.08);
+  box-shadow: 0 0 20px rgba(0,212,255,0.2);
+}
 
 /* Ripple Effect */
 .ripple { position: relative; overflow: hidden; }
